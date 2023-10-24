@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from './sidebar.module.css';
-import Icon from '../Icon/Icon';
+import Icon from '../Icon';
 
 // Define the interface for NavLink
 export interface NavLink {
