@@ -1,0 +1,13 @@
+/* Apply flexbox to center the content vertically and horizontally */
+.mainDiv {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+/* Style for the content text */
+.content {
+  font-size: 26px;
+  font-weight: 600;
+}
