@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Icon from '../Icon/icon';
+import Icon from '../Icon/Icon';
 import styles from './sidebar.module.css';
 
 // Define the interface for NavLink
