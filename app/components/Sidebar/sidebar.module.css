@@ -1,23 +1,22 @@
-/* Sidebar Styles */
+/* Base Styles */
 .sidebar {
   position: fixed;
-  width: 0;
-  height: 100%;
+  z-index: 1;
   top: 0;
   left: 0;
-  z-index: 1;
   background-color: #091928;
+  width: 0;
+  height: 100%;
   overflow-x: hidden;
   transition: width 0.5s;
-  padding: 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 16px;
   color: #ffffff;
+  padding: 30px 0;
 }
 
-/* Sidebar Links */
 .sidebar a {
   padding: 8px 0;
   width: 220px;
@@ -27,39 +26,39 @@
   transition: color 0.3s;
 }
 
-/* Sidebar Links on Hover */
 .sidebar a:hover {
   color: grey;
 }
 
-/* Sidebar Header */
 .sidebarHeader {
   width: 220px;
   display: flex;
   align-items: center;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0.05em;
+  font-size: 16px;
 }
 
-/* Individual Sidebar Link */
 .link {
   display: flex;
   align-items: center;
   padding: 5px 0;
+  height: 30px;
 }
 
-/* Active Link Styles */
 .activeLink {
   border-radius: 6px;
   background-color: #424242;
 }
 
-/* Media Query for Sidebar Width */
+/* Media Query for Larger Screens */
 @media screen and (min-width: 600px) {
   .sidebar {
     width: 250px;
   }
+
+  /* Assuming we have a .content class for the main content */
   .content {
     margin-left: 250px;
   }
