@@ -1,0 +1,65 @@
+/* .cardDiv represents the outer container for each friend card */
+.cardDiv {
+  width: 100%;
+  height: 114px;
+  margin-bottom: 15px;
+  border: 1px solid #D7D7D7;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+/* .cardUpperDiv styles the upper part of the friend card */
+.cardUpperDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+/* .cardLowerDiv styles the lower part of the friend card */
+.cardLowerDiv {
+  display: flex;
+  flex-direction: row;
+  color: #ABABAB;
+  font-size: 14px;
+}
+
+/* .cardName styles the friend's name */
+.cardName {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+/* .cardStatus styles the friend's status (Close Friends or Super Close Friends) */
+.cardStatus {
+  padding: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+/* .cardCloseFriends styles for Close Friends status */
+.cardCloseFriends {
+  color: #3399FF;
+  background-color: #DFEFFF;
+  border: 1px solid #DFEFFF;
+}
+
+/* .cardSuperCloseFriends styles for Super Close Friends status */
+.cardSuperCloseFriends {
+  color: #19B444;
+  background-color: #DCFFE6;
+  border: 1px solid #DCFFE6;
+}
+
+/* .cardEmail styles the friend's email */
+.cardEmail {
+  margin-right: 5px;
+}
+
+/* .cardNumber styles the friend's phone number */
+.cardNumber {
+  margin-left: 5px;
+}

@@ -1,0 +1,16 @@
+/* Styles for the button class */
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  color: #3399FF;
+}
+
+/* Styles for the disabledButton class */
+.disabledButton {
+  cursor: default; /* Change to "not-allowed" to indicate it's not clickable */
+  color: #D7D7D7;
+}

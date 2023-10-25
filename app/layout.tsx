@@ -13,10 +13,10 @@ const RootLayout: FC<LayoutProps> = ({ children }) => {
   return (
     <html>
       <body style={{ margin: 0 }}>
-        <main>
+        <main className={inter.className}>
           <SideBar />
           <Header />
-          <section className={inter.className}>
+          <section>
             <div style={{ marginLeft: '250px', 
                           height: 'calc(100vh - 80px)' }}>
               {children}

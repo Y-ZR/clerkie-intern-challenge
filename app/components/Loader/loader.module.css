@@ -1,0 +1,51 @@
+.cardDiv {
+  width: 100%;
+  height: 114px;
+  margin-bottom: 15px;
+  border: 1px solid #D7D7D7;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.cardUpperDiv {
+  margin-bottom: 10px;
+  height: 18px;
+}
+
+.lowerLoader, .upperLoader {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #EAEAEA,
+    white,
+    #EAEAEA,
+    white
+  );
+  background-size: 400% 400%;
+  border-radius: 10px;
+}
+
+.lowerLoader {
+  height: 14px;
+  animation: getanimation 4s linear infinite; /* Specific animation for lower loader */
+}
+
+.upperLoader {
+  height: 18px;
+  overflow: hidden; /* Hide overflowing content */
+  animation: getanimation 6s linear infinite; /* Specific animation for upper loader */
+}
+
+@keyframes getanimation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

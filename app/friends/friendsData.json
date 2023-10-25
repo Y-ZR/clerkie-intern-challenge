@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Salley Cooper",
+        "email": "salleycooper@gmail.com",
+        "phoneNumber": "(470) 782-5471",
+        "status": "Close Friends"
+    },
+    {
+        "name": "Judith Gonzalez",
+        "email": "jgonzalez@gmail.com",
+        "phoneNumber": "(123) 142-4123"
+    },
+    {
+        "name": "George Bryant",
+        "email": "georgebryant@gmail.com",
+        "phoneNumber": "(123) 142-4123"
+    },
+    {
+        "name": "Betty Wood",
+        "email": "betty@gmail.com",
+        "phoneNumber": "(123) 142-4123",
+        "status": "Super Close Friends"
+    },
+    {
+        "name": "Debra Russell",
+        "email": "eve@example.com",
+        "phoneNumber": "(123) 142-4123",
+        "status": "Super Close Friends"
+    },
+    {
+        "name": "Rebecca Flores",
+        "email": "rebeccaflores@gmail.com",
+        "phoneNumber": "(123) 142-4123",
+        "status": "Close Friends"
+    },
+    {
+        "name": "Kim Holland",
+        "email": "kimholland@gmail.com",
+        "phoneNumber": "(123) 142-4123"
+    },
+    {
+        "name": "Georgia",
+        "email": "georgia@example.com",
+        "phoneNumber": "(123) 142-4123"
+    },
+    {
+        "name": "Zach",
+        "email": "zach@example.com",
+        "phoneNumber": "(123) 142-4123"
+    },
+    {
+        "name": "Shilen",
+        "email": "shilen@example.com",
+        "phoneNumber": "(123) 142-4123"
+    }
+]

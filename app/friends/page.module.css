@@ -1,0 +1,147 @@
+.friendPageMainDiv {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+@keyframes getanimation {
+    0% {
+        background-position: 400% 50%;
+    }
+    50% {
+        background-position: 200% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.friendHeader {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    align-items: center;
+    color: #D7D7D7;
+    position: relative;
+}
+
+.friendDivider {
+    margin: 0 15px;
+    border-left: 1px solid #ABABAB;
+    height: 28px;
+}
+
+.friendHeaderIcon {
+    border: 1px solid #ABABAB;
+    padding: 7.5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.friendClear {
+    font-weight: 500;
+}
+
+.dropdownMenuButton,
+.activeDropDownMenuButton {
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #ABABAB;
+    padding: 7.5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.activeDropDownMenuButton {
+    background-color: #424242;
+    color: white;
+}
+
+.dropdown {
+    position: absolute;
+    top: 37px;
+    margin-top: 10px;
+    left: 0;
+    width: 320px;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.dropdownHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 25px;
+    height: 20px;
+}
+
+.dropdownSeparator {
+    height: 1px;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.dropdownContent {
+    background-color: white;
+    padding: 0 25px;
+    border-radius: 5px;
+}
+
+.dropdownCheckBoxGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.dropdownCheckBox {
+    width: 19px;
+    height: 19px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dropdownTextBold {
+    font-weight: 600;
+    color: #424242;
+}
+
+.dropdownApplyButton {
+    background-color: #424242;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    height: 45px;
+    list-style: none;
+    margin: 10px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.dropdownStatus {
+    color: #686868;
+    margin: 25px 0;
+}
+
+.cancelButton {
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
