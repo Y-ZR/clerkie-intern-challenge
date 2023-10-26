@@ -31,6 +31,7 @@ export default function Home() {
         useState<boolean>(false);
     const [dropDownVisible, setdropDownVisible] = useState<boolean>(false);
     const [hasActveFilters, setHasActiveFilters] = useState<boolean>(true);
+    const [numOfSelectedFilters, setNumOfSelectedFilters] = useState<number>(0);
 
     const disableClearButton_Main = hasActveFilters;
     const disableClearButton_Filter = !(closeFriendCheck || superCloseFriendCheck);
@@ -46,13 +47,19 @@ export default function Home() {
     const clearAllFilters = () => {
         setCloseFriendCheck(false);
         setSuperCloseFriendCheck(false);
+        clearFilterNumber();
     };
 
     const clearAllFiltersAndApply = () => {
         clearAllFilters();
         setFilteredFriends(allFriends);
         setHasActiveFilters(true);
+        clearFilterNumber();
     };
+
+    const clearFilterNumber = () => {
+        setNumOfSelectedFilters(0);
+    }
 
     const onApplyFilters = () => {
         let newlyFilteredFriends = allFriends;
@@ -79,6 +86,14 @@ export default function Home() {
         setdropDownVisible(false);
         setHasActiveFilters(false);
     };
+
+    useEffect(() => {
+        const numberOfFilters = [
+            closeFriendCheck,
+            superCloseFriendCheck,
+        ].filter(Boolean).length;
+        setNumOfSelectedFilters(numberOfFilters);
+    }, [closeFriendCheck, superCloseFriendCheck]);
 
     useEffect(() => {
         const fetchFriendsData = async () => {
@@ -161,22 +176,25 @@ export default function Home() {
                 )}
                 <button
                     className={`${styles.dropdownMenuButton}  ${
-                        dropDownVisible ? styles.activeDropDownMenuButton : ""
+                        dropDownVisible || numOfSelectedFilters > 0 ? styles.activeDropDownMenuButton : ""
                     }`}
                     onClick={showDropdown}
                 >
-                    {dropDownVisible ? (
-                        <Icon
-                            title="OpenFilter"
-                            dimensions={20}
-                            spaced={true}
-                        ></Icon>
+                    {dropDownVisible || numOfSelectedFilters > 0 ? (
+                        <>
+                            <Icon
+                                title="OpenFilter"
+                                dimensions={20}
+                                spaced={true}
+                            />
+                            {numOfSelectedFilters > 0 ? <span className={styles.filterNumber}>{numOfSelectedFilters}</span> : ""}
+                        </>
                     ) : (
                         <Icon
                             title="CloseFilter"
                             dimensions={20}
-                            spaced={true}
-                        ></Icon>
+                            spaced={true} 
+                        />
                     )}
                 </button>
                 <div className={styles.friendDivider}></div>
