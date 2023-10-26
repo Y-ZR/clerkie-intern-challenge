@@ -1,9 +1,10 @@
 .friendPageMainDiv {
-    width: 75%;
+    width: 63%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     padding: 30px;
+    margin-top: 15px;
 }
 
 @keyframes getanimation {

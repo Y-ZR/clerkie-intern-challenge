@@ -34,9 +34,9 @@
   width: 220px;
   display: flex;
   align-items: center;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 30px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08px;
   font-size: 16px;
 }
 

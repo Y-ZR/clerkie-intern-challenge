@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
+  align-items: center;
 }
 
 /* .cardLowerDiv styles the lower part of the friend card */
@@ -28,16 +29,16 @@
 
 /* .cardName styles the friend's name */
 .cardName {
-  font-weight: bold;
-  margin-right: 15px;
+  font-weight: 625;
+  margin-right: 10px;
 }
 
 /* .cardStatus styles the friend's status (Close Friends or Super Close Friends) */
 .cardStatus {
-  padding: 3px;
+  padding: 5px 6.5px;
   font-size: 12px;
-  font-weight: 500;
-  border-radius: 10px;
+  font-weight: 600;
+  border-radius: 21px;
 }
 
 /* .cardCloseFriends styles for Close Friends status */
