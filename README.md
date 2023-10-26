@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clerkie Intern Coding Challenge
 
-## Getting Started
+## What is this about?
 
-First, run the development server:
+This coding challenge involves creating an Infinite Scrolling Next.js web application. The application's primary goal is to showcase an implementation of infinite scrolling, allowing users to explore a large dataset using a web application with beautiful UI and great UX.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project utilizes the following technologies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: We chose Next.js as our framework for its server-side rendering capabilities, which enhance performance and SEO. Additionally, it provides an excellent development experience and simplifies routing.
+- **React**: The application is built using React, making it highly interactive and dynamic.
+- **TypeScript**: TypeScript was selected for the project due to its strong static typing, which helps catch errors during development and enhances code quality. It also improves code maintainability and readability.
+- **CSS Modules**: Styling is done using CSS Modules, which keeps CSS scoped to individual components, reducing the risk of naming conflicts and making styles more maintainable.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Folder Directory Structure
 
-## Learn More
+- **components**: This directory contains components used to build the application's UI. Notable components include the sidebar component, loader component, and friend-card component.
 
-To learn more about Next.js, take a look at the following resources:
+- **public**: Static assets such as images, icons, and fonts are stored here and can be referenced in the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Extra Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Animated Loader Component**
+  - I have included an animated loader component to enhance user experience during data loading. The loader component features smooth animations using CSS and can be found in the Loader directory within the components folder. It provides visual feedback to users while the application fetches data, making the wait more engaging and less frustrating.
