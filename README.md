@@ -6,10 +6,10 @@ This coding challenge involves creating an Infinite Scrolling Next.js web applic
 
 ## Screenshots
 
-# Main Page
+- Main Page
 ![Clerkie Screenshot 1](/public/Clerkie_SS1.png)
 
-# Friends Page
+- Friends Page
 ![Clerkie Screenshot 1](/public/Clerkie_SS2.png)
 
 ## Tech Stack
