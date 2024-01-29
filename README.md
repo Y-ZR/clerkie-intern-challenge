@@ -23,3 +23,7 @@ The project utilizes the following technologies:
 
 - **Animated Loader Component**
   - I have included an animated loader component to enhance user experience during data loading. The loader component features smooth animations using CSS and can be found in the Loader directory within the components folder. It provides visual feedback to users while the application fetches data, making the wait more engaging and less frustrating.
+
+## Live Demo
+
+- Experience this Infinite Scrolling Next.js web application live hosted on Vercel: [Click Here]([https://link-url-here.org](https://clerkie-intern-challenge-one.vercel.app/))
