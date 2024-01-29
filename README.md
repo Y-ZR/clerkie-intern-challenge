@@ -26,4 +26,4 @@ The project utilizes the following technologies:
 
 ## Live Demo
 
-- Experience this Infinite Scrolling Next.js web application live hosted on Vercel: [Click Here]([https://link-url-here.org](https://clerkie-intern-challenge-one.vercel.app/))
+- Experience this Infinite Scrolling Next.js web application live hosted on Vercel: [Click Here](https://clerkie-intern-challenge-one.vercel.app/)
