@@ -1,5 +1,8 @@
 # Clerkie Intern Coding Challenge
 
+![Clerkie Screenshot 1](/public/Clerkie_SS1.png)
+![Clerkie Screenshot 1](/public/Clerkie_SS1.png)
+
 ## What is this about?
 
 This coding challenge involves creating an Infinite Scrolling Next.js web application. The application's primary goal is to showcase an implementation of infinite scrolling, allowing users to explore a large dataset using a web application with beautiful UI and great UX.
